@@ -17,3 +17,27 @@ npm run dev
 ```
 
 3) Open [http://localhost:3000](http://localhost:3000) with your browser.
+
+## Initializing Prisma PostgreSQL Database
+
+1) Install Prisma globally
+
+```bash
+npm install -g prisma
+```
+
+2) Create a new Prisma project
+
+```bash
+prisma init my-project
+```
+
+3) Choose the `PostgreSQL` database option and follow the prompts to set up your database connection.
+
+4) Run the following command to generate Prisma client
+
+```bash
+prisma generate
+```
+
+5) You can now use the generated Prisma client to interact with your PostgreSQL database.
